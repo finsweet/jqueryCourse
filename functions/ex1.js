@@ -1,1 +1,4 @@
-function make_alert(){ let message = "hello"  alert(message)}
+function make_alert() {
+    let message = "hello"
+    alert(message)
+}
