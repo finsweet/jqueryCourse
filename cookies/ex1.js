@@ -1,0 +1,2 @@
+//
+Cookies.set('username','john')
