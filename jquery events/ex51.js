@@ -3,7 +3,7 @@
 $("body").unbind("keydown");
 // listener for the text area tag
 $("body").on("keydown", function (event) {
-  if (event.shiftKey && event.keyCode === 90) {
+  if (event.shiftKey && event.keyCode === 48) {
     // write to text area
     $("#field").val("Written by pressing CTRL and SPACE");
   }
