@@ -1,6 +1,6 @@
 //
 $(":text").each(function (index, element) {
   if ($(element).val() === "") {
-    alert("This field is empty!");
+    console.log(element, "This field is empty!");
   }
 });
