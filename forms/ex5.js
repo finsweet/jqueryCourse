@@ -1,6 +1,6 @@
 //
 $("form :input").each(function (index, element) {
   if ($(element).val() === "") {
-    alert("This field is empty!");
+    console.log("This field is empty! " + element);
   }
 });
