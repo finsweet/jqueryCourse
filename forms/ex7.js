@@ -2,10 +2,10 @@
 $("#email-form").submit(function (e) {
   if ($("#name").val() === "") {
     alert("Please provide your name!");
-    e.preventDefault();
+    e.stopPropagation();
   } else if ($("#field").val() === "") {
     alert("Please select an option from the dropdown!");
-    e.preventDefault();
+    e.stopPropagation();
   } else {
   }
 });
