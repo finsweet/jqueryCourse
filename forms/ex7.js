@@ -3,11 +3,11 @@ $("#email-form").submit(function (e) {
   if ($("#name").val() === "") {
     alert("Please provide your name!");
     e.stopPropagation();
-    return
+    return false
   } else if ($("#field").val() === "") {
     alert("Please select an option from the dropdown!");
     e.stopPropagation();
-    return
+    return false
   } else {
   }
 });
