@@ -5,10 +5,10 @@ if ($("#name").val() === "") {
 } else if ($("#email").val() === "") {
   $(".message").css("display", "flex").css("color", "red");
   $(".message").text("Please enter your email!");
-} else if (!$("#checkbox").prop("checked")) {
+} else if (!$("#Checkbox-2").prop("checked")) {
   $(".message").css("display", "flex").css("color", "red");
   $(".message").text("Please check the checkbox!");
-} else if ($("#field").val() === "") {
+} else if ($("#Field-2").val() === "") {
   $(".message").css("display", "flex").css("color", "red");
   $(".message").text("Please select an option from the dropdown!");
 } else {
