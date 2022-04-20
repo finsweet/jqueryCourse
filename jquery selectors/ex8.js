@@ -1,1 +1,1 @@
-$("a#specialID.specialClass")
+$("a#specialID.specialClass").css('background-color', 'yellow');

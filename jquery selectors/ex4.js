@@ -1,2 +1,2 @@
 // Select element with id firstname.
-$("#firstname")
+$("#firstname").css('background-color', 'yellow');

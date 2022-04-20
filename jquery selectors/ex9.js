@@ -1,1 +1,1 @@
-$("ul li:first")
+$("ul li:first").css('background-color', 'yellow');

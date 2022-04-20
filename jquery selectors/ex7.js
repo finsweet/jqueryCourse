@@ -1,1 +1,1 @@
-$("li:not(.myclass)")
+$("li:not(.myclass)").css('background-color', 'yellow');
