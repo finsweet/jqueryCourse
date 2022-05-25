@@ -1,4 +1,4 @@
 // "heading" converted to upper case.
-let str = "headind";
+let str = "heading";
 str = str.toUpperCase();
 $("#resultdiv").text(str);
