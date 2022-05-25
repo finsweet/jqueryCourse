@@ -1,2 +1,2 @@
-// Press Cntrl + shift + J to see console output.
+// Press Ctrl + shift + J to see console output.
 console.log(navigator);

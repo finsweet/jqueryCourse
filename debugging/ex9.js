@@ -1,4 +1,4 @@
-// Press Cntrl + shift + J to see table.
+// Press Ctrl + shift + J to see table.
 var people = [
   { job: "Engineer", name: "Henry", age: 43 },
   { job: "Student", name: "Fred", age: 13 },
