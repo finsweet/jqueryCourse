@@ -6,5 +6,5 @@ $("#color-list").scroll(function (event) {
   // decrease button opacity by 0.1
   button_opacity = button_opacity - 0.1;
   // add list items
-  $(".w-button").css({ opacity: button_opacity });
+  $(".demo-button").css({ opacity: button_opacity });
 });
