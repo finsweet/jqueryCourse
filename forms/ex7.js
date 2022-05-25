@@ -8,6 +8,5 @@ $("#email-form").submit(function (e) {
     alert("Please select an option from the dropdown!");
     e.stopPropagation();
     e.preventDefault();
-  } else {
   }
 });

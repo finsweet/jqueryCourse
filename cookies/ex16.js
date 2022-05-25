@@ -1,2 +1,2 @@
 //
-Cookies.remove('username')
+Cookies.remove('user')

@@ -1,4 +1,4 @@
-// Press Cntrl + shift + J to see console output.
+// Press Ctrl + shift + J to see console output.
 let names_array = ["James", "John", "Steve", "Mary", "Brian", "Paul", "Jane"];
 console.assert(
   names_array.length === 10,
