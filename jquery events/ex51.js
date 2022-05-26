@@ -1,4 +1,4 @@
-// Press and hold the CTRL key and SPACE key to write a message to the text area.
+// Press and hold the Shift key and SPACE key to write a message to the text area.
 // remove previous listeners
 $("body").unbind("keydown");
 // listener for the text area tag
