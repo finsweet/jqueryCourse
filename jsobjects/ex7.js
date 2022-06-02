@@ -1,3 +1,4 @@
+// various date object examples
 new Date();
 new Date(milliseconds);
 new Date(datestring);
