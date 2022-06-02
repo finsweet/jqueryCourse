@@ -1,2 +1,5 @@
 // Select second option in dropdown.
-$("#field[value='Second']").attr('selected',true);
+$("#email-form").submit(function (e) {
+    e.preventDefault();
+    $("#field").val('Second');
+});

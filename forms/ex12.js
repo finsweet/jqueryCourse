@@ -7,7 +7,7 @@ function validate() {
   } else if ($("#email").val() === "") {
     $(".message").css("display", "flex").css("color", "orange");
     $(".message").text("Please enter your email!");
-  } else if (!$("#checkbox").prop("checked")) {
+  } else if (!$("#checkbox-2").prop("checked")) {
     $(".message").css("display", "flex").css("color", "orange");
     $(".message").text("Please check the checkbox!");
   } else if ($("#field").val() === "") {
