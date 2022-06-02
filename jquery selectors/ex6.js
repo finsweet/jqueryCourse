@@ -1,2 +1,2 @@
 // Select all elements
-$("*").css('background-color', 'yellow');
+$(".example-live p").css('background-color', 'yellow');
