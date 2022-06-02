@@ -5,7 +5,7 @@ if ($("#name").val() === "") {
 } else if ($("#email").val() === "") {
   $(".message").css("display", "flex").css("color", "red");
   $(".message").text("Please enter your email!");
-} else if (!$("#Checkbox-2").prop("checked")) {
+} else if (!$("#checkbox-2").prop("checked")) {
   $(".message").css("display", "flex").css("color", "red");
   $(".message").text("Please check the checkbox!");
 } else if ($("#Field-2").val() === "") {

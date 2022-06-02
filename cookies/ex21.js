@@ -8,15 +8,15 @@ if (Cookies.get("dark-mode") === "off") {
   $("#minidivpage").css({ "background-color": "white", color: "black" });
 }
 // listener for radio button
-$("#radio").click(() => {
-  if ($("#radio").is(":checked")) {
+$("#radio-3").click(() => {
+  if ($("#radio-3").is(":checked")) {
     $("#minidivpage").css({ "background-color": "black", color: "white" });
     Cookies.set("dark-mode", "on");
   }
 });
 
-$("#radio-2").click(() => {
-  if ($("#radio-2").is(":checked") || Cookies.get("dark-mode") === "off") {
+$("#radio-4").click(() => {
+  if ($("#radio-4").is(":checked") || Cookies.get("dark-mode") === "off") {
     $("#minidivpage").css({ "background-color": "white", color: "black" });
     Cookies.set("dark-mode", "off");
   }

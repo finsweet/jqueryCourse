@@ -1,2 +1,3 @@
 //
-Cookies.remove('user')
+Cookies.remove('user');
+alert(Cookies.get('user'));
