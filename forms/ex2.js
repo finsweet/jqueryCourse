@@ -1,2 +1,5 @@
 // Add "Brian" to input
-$("#name").val("Brian");
+$("#email-form").submit(function (e) {
+    e.preventDefault();
+    $("#name").val("Brian");
+});
